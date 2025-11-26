@@ -9,6 +9,7 @@ readme = "README.md"
 dependencies = [
   "numpy",
   "scipy>=1.8",
+  "matplotlib>=3.5",
 ]
 authors = [
   {name = "Chungpa Lee"},
@@ -27,4 +28,3 @@ include-package-data = false
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["llm_judge_reporting*"]
-
