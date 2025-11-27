@@ -15,9 +15,10 @@
     <a href="./paper/How to Correctly Report LLM as a Judge Evaluations.pdf">
         <img src="https://img.shields.io/badge/preprint-fa0f00.svg" alt="preprint">
     </a>
-    <!-- <a href="https://arxiv.org/abs/XXXXX">
-        <img src="https://img.shields.io/badge/arXiv-b31b1b.svg" alt="arXiv">
-    </a> -->
+    <a href="https://arxiv.org/abs/2511.21140">
+    <img alt="arXiv" src="https://img.shields.io/badge/arXiv-2511.21140-b31b1b.svg">
+</a>
+
 </h3>
 
 Large language models (LLMs) are increasingly used as evaluators in lieu of humans. While scalable, their judgments are noisy due to imperfect specificity and sensitivity of LLMs, leading to biased accuracy estimates. Although bias-correction methods exist, they are underutilized in LLM research and typically assume exact knowledge of the model's specificity and sensitivity. Furthermore, in general we only have estimates of these values and it is not well known how to properly construct confidence intervals using only estimates. This work presents a simple plug-in framework that corrects such bias and constructs confidence intervals reflecting uncertainty from both test and calibration dataset, enabling practical and statistically sound LLM-based evaluation. Additionally, to reduce uncertainty in the accuracy estimate, we introduce an adaptive algorithm that efficiently allocates calibration sample sizes.
@@ -104,7 +105,8 @@ print("allocate m0,m1:", m0, m1)
 @article{lee2025correctly,
   title         = {How to Correctly Report LLM-as-a-Judge Evaluations},
   author        = {Lee, Chungpa and Zeng, Thomas and Jeong, Jongwon and Sohn, Jy-yong and Lee, Kangwook},
-  journal       = {arXiv preprint},
-  year          = {2025}
+  year          = {2025},
+  eprint        = {2511.21140},
+  archivePrefix = {arXiv}
 }
 ```
